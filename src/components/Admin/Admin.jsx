@@ -63,7 +63,7 @@ function Admin() {
       <header className="Admin-header">
         <h1 className="Admin-title">Feedback Results!</h1>
       </header>
-      <body>
+      <div className="body">
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 700 }} aria-label="customized table">
             <TableHead>
@@ -93,7 +93,7 @@ function Admin() {
             </TableBody>
           </Table>
         </TableContainer>
-      </body>
+      </div>
     </>
   );
 }

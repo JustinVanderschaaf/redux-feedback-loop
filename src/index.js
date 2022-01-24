@@ -34,6 +34,7 @@ const feedback = (
     case "NEW_COMMENTS":
       return { ...state, comments: (state.comments = action.payload) };
   }
+  
   // Whatever we return from the reducer
   // is the value of our state
   return state;

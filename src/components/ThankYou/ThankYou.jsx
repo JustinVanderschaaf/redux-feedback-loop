@@ -14,12 +14,12 @@ function ThankYou() {
   return (
     <>
       <header className="thank">Feedback</header>
-      <body>
+      <div className="body">
         <h2>Thank You!</h2>
         <button className="thankBtn" onClick={reset}>
           Leave New Feedback
         </button>
-      </body>
+      </div>
     </>
   );
 }
