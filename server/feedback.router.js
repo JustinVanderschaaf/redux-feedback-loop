@@ -6,6 +6,7 @@ router.get("/", (req, res) => {
   console.log("GET /feedback");
   pool
     .query('SELECT * from "feedback" ORDER BY id DESC;')
+    //ORDER BY date DESC would order by date with newest on top
     .then((result) => {
       res.send(result.rows);
     })
