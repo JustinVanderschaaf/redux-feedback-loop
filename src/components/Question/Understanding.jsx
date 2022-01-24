@@ -41,7 +41,7 @@ function Understanding() {
         <input
           //limit the client to only numbers between 1 and 5 and only one character long
           onKeyPress={(event) => {
-            if (!/[0-5]/.test(event.key)) {
+            if (!/[1-5]/.test(event.key)) {
               event.preventDefault();
             }
           }}
